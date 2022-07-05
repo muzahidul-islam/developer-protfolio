@@ -7,22 +7,27 @@ body{
 h1{
     font-size: 50px;;
 }
-
-.my_name{
+h2{
+    font-size: 40px;
+}
+.orange_color{
     color: orange;
 }
 
-section{
+.flexible_container{
     display: flex;
+    margin-bottom: 150px;
+    
 }
+
 p{
     text-align: justify;
 }
 .sec-1-half-width{
-    padding: 10%;
+    padding-left: 10%;
     width: 50%;
 }
-.sec-1-half-width-img{
+.sec-1-half-width img{
     width: 80%;
 }
 
@@ -40,15 +45,42 @@ p{
     background-repeat: no-repeat;
 }
 .sec-2-half-width{
-    padding: 10%;
+    padding-right: 5%;
     width: 50%;
 }
-.sec-2-half-width-img{
+
+.sec-2-half-width img{
     width: 80%;
-    padding-left: 50px;
-}
+    padding-right: 10%;
+}  
 .dream_big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-}.
+}
+
+.experience_area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+.experience_item{
+    padding: 30px;
+    width: 40%;
+    margin: 0 5% 0 5%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+}
+.border_left_full{
+    border-left: 10px solid blue;
+}
+
+.border_left_baby{
+    border-left: 10px solid tomato;
+}
+
+footer p{
+    text-align: center;
+}
