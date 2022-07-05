@@ -39,3 +39,16 @@ p{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.sec-2-half-width{
+    padding: 10%;
+    width: 50%;
+}
+.sec-2-half-width-img{
+    width: 80%;
+    padding-left: 50px;
+}
+.dream_big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}.
